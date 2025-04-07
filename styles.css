@@ -1,5 +1,6 @@
 * {
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 ul {
@@ -38,7 +39,9 @@ button {
 
 .header-bottom {
     display: flex;
+    justify-content: space-around;
     padding: 100px 0px;
+    gap: 150px;
 }
 
 .header-left {
@@ -69,6 +72,7 @@ button {
 
 .spaceship {
      width: 550px;
+     height: auto;
 }
 
 .information {
@@ -77,8 +81,46 @@ button {
     color: #1f2937;
 }
 
+.body1 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left:  200px;
+    padding-right:  200px;
+    text-align: center;
+}
+
+.entries {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.item {
+    max-width: 200px;
+}
+
+.sprite {
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+
 .body2 {
     background-color: #e5e7eb;
+    padding: 80px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.signature {
+    text-align: right;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .body3 {
@@ -88,7 +130,7 @@ button {
     align-items: center;
     color: #f9faf8;
     background-color: #3882f6;
-    margin: 80px 200px;
+    margin: 100px 200px;
     border-radius: 8px;
 }
 
@@ -99,14 +141,6 @@ button {
 
 .call-to-action, .description {
     margin: 0;
-}
-
-.quote{
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
-    color: #1f2937;
-     
 }
 
 .footer {
