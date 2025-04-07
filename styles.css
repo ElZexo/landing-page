@@ -3,22 +3,49 @@
 }
 
 ul {
+    display: flex;
     list-style-type: none;
     padding-left: 0;
     font-size: 18px;
     color: #e5e7eb;
+    gap: 15px
 }
 
 button {
     color: #f9faf8;
     background-color: #3882f6;
-    border: none;
+    border-color: #f9faf8;
+    border-style: solid;
+    font-size: 18px ;
     border-radius: 8px;
     padding: 10px;
+    font-weight: 700;
 }
 
 .header {
     background-color: #1f2937;
+    padding: 15px 150px ;
+}
+
+.header button {
+    border: none;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom {
+    display: flex;
+    padding: 100px 0px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
 .header-logo {
@@ -30,15 +57,18 @@ button {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin: 0;
+    line-height: 1em;
 }
 
 .small-text {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0;
 }
 
 .spaceship {
-     width: 500px;
+     width: 550px;
 }
 
 .information {
@@ -51,6 +81,26 @@ button {
     background-color: #e5e7eb;
 }
 
+.body3 {
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #3882f6;
+    margin: 80px 200px;
+    border-radius: 8px;
+}
+
+.body3-left {
+    display: flex;
+    flex-direction: column;   
+}
+
+.call-to-action, .description {
+    margin: 0;
+}
+
 .quote{
     font-size: 36px;
     font-style: italic;
@@ -60,6 +110,8 @@ button {
 }
 
 .footer {
+    padding: 30px;
     color: #f9faf8;
     background-color: #1f2937;
+    text-align: center;
 }
